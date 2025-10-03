@@ -115,12 +115,27 @@ body {
     width: 2rem;
 }
 
-.sidebar__profile .profile-option {
-    font-size: .9rem;
+.item--profile .profile-option {
+    font-size: .8rem;
+    padding: 0 12px 0 9px;
+    color: inherit;
+}
+
+.item--profile {
+    width: fit-content;
+    margin: 12px;
     color: var(--text-color);
+}
+
+.item--profile:hover {
+    border-radius: 25px;
+    color: var(--sidebar-color);
+}
+
+.item--profile::before, .item--profile::after {
+    display: none;
 }
 
 .sidebar__form {
     position: absolute;
-    display: none;
 }
