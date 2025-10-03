@@ -20,4 +20,5 @@ body {
 
 .sidebar {
     background-color: var(--sidebar-color);
+    position: fixed;
 }
