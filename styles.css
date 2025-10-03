@@ -21,4 +21,7 @@ body {
 .sidebar {
     background-color: var(--sidebar-color);
     position: fixed;
+    height: 100dvh;
+    width: clamp(220px, 20vw, 300px);
+    font-size: clamp(1rem, 2.2vw, 3rem);
 }
